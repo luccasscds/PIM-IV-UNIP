@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1636488553 source:/home/lucas/projetos/codeblock/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<time.h>
+
