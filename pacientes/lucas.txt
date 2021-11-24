@@ -1,0 +1,13 @@
+Nome: lucas
+Cpf: 08850933396
+Telefone: 86988207567
+Rua: primeiro de setembro
+Numero: 123
+Bairro: centro
+Cidade: teresina
+Estado: pi
+Cep: 64008380
+Data de nascimento: 08102000
+Email: lucas@gmail.com
+Data do diagnóstico: 21012012
+Comorbidade: nao possui

@@ -8,7 +8,9 @@ int login() {
     char user[100], password[20];
 
     while(1){
-        printf("\nSeu login \n");
+        printf("\n==============================\n");
+        printf("\n      Faça seu login \n");
+        printf("\n==============================\n");
         printf("Digite seu usuário: ");
         (void)!scanf("%s",user);
 
@@ -103,7 +105,7 @@ int currentDate(char s[1]){
     return 0;
 }
 
-int menu(){
+int registePatient(){
     char name[100], cpf[100], telephone[100], street[100], number[10], neighborhood[100], city[100], state[100], cep[100], birthDate[100], email[100], diagnosisDate[100], comorbidity[100], res[1];
     int age = 0;
 
@@ -141,7 +143,7 @@ int menu(){
             }
             storageFile("Nome: %s\n",name, name);
 
-            /*while(1){
+            while(1){
                 printf("\nCPF? [01730411178] \n");
                 void * verifyInput = fgets(cpf,100,stdin);
                 if(verifyInput != NULL) {
@@ -315,7 +317,7 @@ int menu(){
                 }
                 (void)!system("clear");
             }
-            storageFile("Data de nascimento: %s\n",birthDate,name);*/
+            storageFile("Data de nascimento: %s\n",birthDate,name);
 
             while(1){
                 printf("\nEmail? \n");
@@ -334,7 +336,7 @@ int menu(){
             }
             storageFile("Email: %s\n",email,name);
 
-            /*while(1){
+            while(1){
                 printf("\nData do diagnóstico? [somente os números] \n");
                 void * verifyInput = fgets(diagnosisDate,100,stdin);
                 if(verifyInput != NULL) {
@@ -380,7 +382,7 @@ int menu(){
                 }
                 (void)!system("clear");
             }
-            storageFile("Comorbidade: %s\n",comorbidity,name);*/
+            storageFile("Comorbidade: %s\n",comorbidity,name);
 
             (void)!system("clear");
             printf("\nPaciente cadastrado com sucesso.\n");
@@ -396,9 +398,28 @@ int menu(){
 
 int main() {
 
-    //login();
+    while(1){
+        char resp[2];
+        printf("\n===========================================================\n");
+        printf("    Você entrou no sistema de cadastrado de paciente");
+        printf("\n===========================================================\n");
+        printf("1 - Fazer o login\n0 - Sair\n>");
+        (void)!scanf("%s",resp);
 
-    menu();
+        if(strcmp(resp,"1") == 0){
+            (void)!system("clear");
+            login();
+            break;
+        }
+        if(strcmp(resp,"2") == 0){
+            return 1;
+        }
+        printf("\nOpção invalida!");
+        getchar();
+        (void)!system("clear");
+    }
+
+    registePatient();
 
     printf("\nJUNTOS SOMOS MAIS FORTES!\n");
     return 0;
