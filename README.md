@@ -1,7 +1,7 @@
 # PIM IV UNIP
 O Projeto Integrado Multidisciplinar – PIM faz parte do Programa Pedagógico dos Cursos Superiores de Tecnologia a distância da UNIP Interativa.
 
-``Antes de tudo`` quero comunicar que estou disponibilizando os matérias para ajuda de alguma forma, porque para mim foi muito difícil de achar matérias completo sobre o assunto. Com isso, esses matérias pode ser usados como modelo para construir a sua própria documentação. 
+``Antes de tudo`` quero comunicar que estou disponibilizando o conteúdo para ajudar de alguma forma, porque para mim foi muito difícil de achar algo completo sobre o assunto. Com isso, o que for disponibilizado, pode ser usado como modelo para ajudar a construir o seu trabalho.
 
 ##  📍 O tema proposto:
 O sistema em C para cadastrar pacientes diagnosticados com covid-19.
