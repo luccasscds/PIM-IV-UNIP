@@ -33,5 +33,5 @@ git clone https://github.com/luccasscds/PIM-IV-UNIP.git
 * E depois aperte `F9` para compilar e rodar o projeto;
 
 ##  🥇 Autores:
-| [<img src="https://github.com/luccasscds.png" width=115><br><sub>Lucas Silva</sub>](https://github.com/luccasscds) |
-| :---: |
+| [<img src="https://github.com/luccasscds.png" width=115><br><sub>Lucas Silva</sub>](https://github.com/luccasscds) | Aguardando os outros autores |
+| :---: | :---: |
